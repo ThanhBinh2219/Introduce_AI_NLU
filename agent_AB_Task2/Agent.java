@@ -16,4 +16,8 @@ public class Agent {
 		}
 		return NoOpAction.NO_OP;
 	}
+
+  public AgentProgram getProgram() {
+    return null;
+  }
 }
