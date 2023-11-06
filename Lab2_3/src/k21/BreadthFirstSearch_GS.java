@@ -4,7 +4,7 @@ import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BreadthFirstSearch implements ISearchAlgo {
+public class BreadthFirstSearch_GS implements ISearchAlgo {
 
 	@Override
 	public Node execute(Node root, String goal) {
@@ -59,12 +59,6 @@ public class BreadthFirstSearch implements ISearchAlgo {
 			}
 		}
 
-		return null;
-	}
-
-	@Override
-	public Node uniformCostSearch(Node root, String goal) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
